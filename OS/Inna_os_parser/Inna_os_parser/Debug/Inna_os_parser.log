@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\oleg\desktop\university\2 course\other\inna_os_parser\inna_os_parser\source.cpp(27): warning C4018: '<': signed/unsigned mismatch
+c:\users\oleg\desktop\university\2 course\other\inna_os_parser\inna_os_parser\source.cpp(56): warning C4018: '<': signed/unsigned mismatch
+c:\users\oleg\desktop\university\2 course\other\inna_os_parser\inna_os_parser\source.cpp(69): warning C4018: '<': signed/unsigned mismatch
+  Inna_os_parser.vcxproj -> C:\Users\Oleg\Desktop\university\2 course\other\Inna_os_parser\Debug\Inna_os_parser.exe
+  Inna_os_parser.vcxproj -> C:\Users\Oleg\Desktop\university\2 course\other\Inna_os_parser\Debug\Inna_os_parser.pdb (Full PDB)
