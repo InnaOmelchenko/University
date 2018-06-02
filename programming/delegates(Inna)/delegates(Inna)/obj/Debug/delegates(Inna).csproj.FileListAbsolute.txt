@@ -1,0 +1,6 @@
+C:\Users\Oleg\Desktop\university\2 course\other\delegates(Inna)\delegates(Inna)\bin\Debug\delegates(Inna).exe.config
+C:\Users\Oleg\Desktop\university\2 course\other\delegates(Inna)\delegates(Inna)\bin\Debug\delegates(Inna).exe
+C:\Users\Oleg\Desktop\university\2 course\other\delegates(Inna)\delegates(Inna)\bin\Debug\delegates(Inna).pdb
+C:\Users\Oleg\Desktop\university\2 course\other\delegates(Inna)\delegates(Inna)\obj\Debug\delegates(Inna).csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Desktop\university\2 course\other\delegates(Inna)\delegates(Inna)\obj\Debug\delegates(Inna).exe
+C:\Users\Oleg\Desktop\university\2 course\other\delegates(Inna)\delegates(Inna)\obj\Debug\delegates(Inna).pdb
