@@ -1,0 +1,12 @@
+D:\КПІ\2 курс\2 семестр\ООП\Indexators\Indexators\bin\Debug\Indexators.exe.config
+D:\КПІ\2 курс\2 семестр\ООП\Indexators\Indexators\obj\Debug\Indexators.csprojResolveAssemblyReference.cache
+D:\КПІ\2 курс\2 семестр\ООП\Indexators\Indexators\bin\Debug\Indexators.exe
+D:\КПІ\2 курс\2 семестр\ООП\Indexators\Indexators\bin\Debug\Indexators.pdb
+D:\КПІ\2 курс\2 семестр\ООП\Indexators\Indexators\obj\Debug\Indexators.exe
+D:\КПІ\2 курс\2 семестр\ООП\Indexators\Indexators\obj\Debug\Indexators.pdb
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\Indexators\Indexators\Indexators\bin\Debug\Indexators.exe.config
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\Indexators\Indexators\Indexators\obj\Debug\Indexators.exe
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\Indexators\Indexators\Indexators\obj\Debug\Indexators.pdb
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\Indexators\Indexators\Indexators\bin\Debug\Indexators.exe
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\Indexators\Indexators\Indexators\bin\Debug\Indexators.pdb
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\Indexators\Indexators\Indexators\obj\Debug\Indexators.csprojResolveAssemblyReference.cache
