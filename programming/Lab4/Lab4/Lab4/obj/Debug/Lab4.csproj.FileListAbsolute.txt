@@ -1,0 +1,46 @@
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\bin\Debug\Lab4.exe.config
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\bin\Debug\Lab4.exe
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\bin\Debug\Lab4.pdb
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\obj\Debug\Lab4.csprojResolveAssemblyReference.cache
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\obj\Debug\Lab4.Main.resources
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.Cache
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\obj\Debug\Lab4.exe
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\obj\Debug\Lab4.pdb
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\obj\Debug\Lab4.Task1.resources
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\obj\Debug\Lab4.Task2.resources
+D:\КПІ\2 курс\2 семестр\ООП\Lab4\Lab4\obj\Debug\Lab4.Task3.resources
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe.config
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.exe
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.pdb
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\bin\Debug\Lab4.pdb
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.Main.resources
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.Task3.resources
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.Task1.resources
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.Task2.resources
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.Cache
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\bin\Debug\Help.txt
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.ArrayForm.resources
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.Count.resources
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\obj\Debug\Lab4.IndividualTask.resources
+C:\Users\Oleg\Desktop\Lab4\Lab4\Lab4\bin\Debug\help.docx
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe.config
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.exe
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.pdb
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\bin\Debug\Help.txt
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\bin\Debug\help.docx
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\bin\Debug\Lab4.pdb
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.ArrayForm.resources
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.Count.resources
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.IndividualTask.resources
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.Main.resources
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.Task3.resources
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.Task1.resources
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.Task2.resources
+C:\Users\Oleg\Desktop\university\2 course\4 semester\Inna\Inna_proga\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.Cache
