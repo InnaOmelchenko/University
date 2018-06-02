@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>lab12</title>
+<script language="JavaScript">
+function test(fname) 
+{
+  if (fname == "")
+  {
+	form.result.value = "enter your name";
+  }  
+  else
+  {
+	form.result.value = "everything ok";
+  }
+}
+
+function test2(mail) {
+	var flag=false;
+  if (mail == "") 
+  {
+        form1.result.value = "enter your e-mail adress";
+  }
+  else 
+  {
+		for(let i=0; i<mail.length; i++)
+		{
+			if((mail.substr(i,3)=="net")||(mail.substr(i,3)=="com"))
+			{
+				form1.result.value = "everything ok";
+				flag = true;
+				break; 
+			}
+			else
+			{
+				flag=false;
+			}
+		}
+  }
+  if(!flag)
+  {
+  form1.result.value = "incorrect e-mail";
+  }
+}
+
+function test3(obj)
+{
+	var arr = new Array;
+	for(let k=0; k<10; k++)
+	{
+		arr[k] = k+1;
+	}
+	var s = obj.length;
+	var flag = false;
+	for(let i=0; i<s; i++)
+	{
+		for(let j=0; j<10; j++)
+		{
+			if(obj[i] == arr[j])
+			{
+				flag = true;
+				break;
+			}
+			else 
+			{
+				flag = false;
+			}
+		}
+		if(!flag)
+		{
+			form2.result.value = "incorrect number";
+			break;
+		}
+	}
+	if(flag)
+	{
+		form2.result.value = "everything is ok";
+	}
+}
+
+</script>
+</head>
+<body>
+<form name="form">
+enter your name:<br>
+<input type="text" name="firstname">
+<input type="button" value="check" onClick="test(form.firstname.value)">
+<input type="text" name="result">
+</form>
+
+<br><br>
+<form name="form1">
+enter your e-mail adress:<br>
+<input type="text" name="mail">
+<input type="button" value="check" onClick="test2(form1.mail.value)">
+<input type="text" name="result">
+</form>
+
+<br><br>
+<form name="form2">
+enter your mobile number:<br>
+<input type="text" name="number">
+<input type="button" value="check" onClick="test3(form2.number.value)">
+<input type="text" name="result">
+</form>
+</body>
+</html>

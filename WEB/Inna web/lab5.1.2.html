@@ -1,0 +1,35 @@
+<HTML>
+  <HEAD>
+  <TITLE>Зображення і обтікання текстом</TITLE>
+  <script>
+  function chpict(obj)
+  {
+  if ((obj.elements[0]).checked)
+  document.mypict.align="left"
+  else
+  document.mypict.align="right"
+  }
+  function rset(obj)
+  {document.mypict.align="left"}
+  </script>
+  </HEAD>
+  <BODY>
+  <CENTER>
+  <Р>Зображення і обтікання текстом</Р>
+  </CENTER>
+  <FORM name="form1">
+Оберіть значення параметра вирівнювання і натисніть кнопку  <В>Переглянути</В>.<br>
+  <PRE>
+  <input type="radio" name="alg" checked value=ld>(left) вирівнювання вліво
+  <input type="radio" name="alg" value=rd>(right) вирівнювання вправо
+  </PRE>
+  <input type="button" value= "Переглянути" onclick="chpict(form1)">
+  <input type="reset" value="Скасувати" onclick="rset(form1)"> </FORM>
+  <TABLE bgcolor="F8F8FF">
+  <TR><TD>Lorem Ipsum не є випадковим набором літер. Він походить з уривку класичної латинської літератури 45 року до н.е., тобто має більш як 2000-річну історію. Річард Макклінток, професор латини з коледжу Хемпдін-Сидні, що у Вірджінії, вивчав одне з найменш зрозумілих латинських слів - consectetur - з уривку Lorem Ipsum, і у пошуку цього слова в класичній літературі знайшов безсумнівне джерело. 
+ <IMG src=pl.jpg name=mypict align=left border=3 width=300>
+Lorem Ipsum походить з розділів 1.10.32 та 1.10.33 цицеронівського "de Finibus Bonorum et Malorum" ("Про межі добра і зла"), написаного у 45 році до н.е. Цей трактат з теорії етики був дуже популярним в епоху Відродження. Перший рядок Lorem Ipsum, "Lorem ipsum dolor sit amet..." походить з одного з рядків розділу 1.10.32. 
+  </TD></TR>
+  </TABLE>
+  </BODY>
+  </HTML>

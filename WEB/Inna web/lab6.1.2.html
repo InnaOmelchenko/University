@@ -1,0 +1,30 @@
+<HTML>
+  <HEAD>
+  <TITLE> Дані з галочок в анкеті перекладача</TITLE>
+  <script language="JavaScript">
+  function grant()
+  { var d= document
+  var k=0;
+  if ((d.form1.elements[0]).checked)
+  k=k+Number(d.form1.elements[0].value)
+  if ((d.form1.elements[1]).checked)
+  k=k+Number(d.form1.elements[1].value)
+  if ((d.form1.elements[2]).checked)
+  k=k+Number(d.form1.elements[2].value)
+  form1.ww.value="Ваша винагорода "+k+" y.e."
+  }
+  </script>
+  </HEAD>
+  <BODY>
+  <H3>Анкета перекладача</H3>
+  Вкажіть ті мови, якими Ви володієте: <br>
+  <FORM name="form1">
+  <input type="checkbox" name="lan" value=100>українська<br>
+  <input type="checkbox" name="lan" value=200>англійська<br>
+  <input type="checkbox" name="lan" value=300>китайська<br>
+  <input type="button" value="Винагорода" onClick="grant()"> <hr>
+  <input type="Text" size=50 name="ww" value=""><br>
+  <input type="reset" value="Скасувати">
+  </FORM><hr>
+  </BODY>
+  </HTML>

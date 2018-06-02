@@ -1,0 +1,57 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+  <style>
+    img{
+      transition:all 1s ease;
+      width:200px;
+      height:200px;
+    }
+  </style>
+  <body>
+    <div id="scale-items">
+      <img data-role="scale-item" src="http://www.tvoyakniga.ru/images/forum_uploads/mini_6_201607140847.jpg" alt="">
+      <img data-role="scale-item" src="https://art-holst.com.ua/img/gallery/2/thumbs/thumb_m_1746.jpg" alt="">
+      <img data-role="scale-item" src="http://www.sunhome.ru/i/wallpapers/224/oboi-cvetenie.l.jpg" alt="">
+    </div>
+  </body>
+<script>
+  'use strict'
+  
+  class Scale{
+    constructor(options){
+      this._elem = options.elem;
+
+      this._elem.addEventListener('mouseover', this._onMouseEnter.bind(this));
+      this._elem.addEventListener('mouseout', this._onMouseLeave.bind(this));
+    }
+    _onMouseEnter(event) {
+      let target = event.target;
+      let img = target.closest('[data-role=scale-item]');
+      
+      if(!img) return;
+      
+      this._increaseElement(img);
+    } 
+    _onMouseLeave(event) {
+      let target = event.target; 
+      this._decreaseElement(target);
+    } 
+    _increaseElement(elem){
+      elem.style.width = '400px';
+      elem.style.height = '400px';
+    } 
+    _decreaseElement(elem){
+      elem.style.width = '';
+      elem.style.height = '';
+    }
+  }
+  
+  let options = {
+    elem: document.getElementById('scale-items')
+  }
+  new Scale(options);
+</script>
+</html>

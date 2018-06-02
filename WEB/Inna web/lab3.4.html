@@ -1,0 +1,38 @@
+<html>
+<head>
+<script>
+<script language="JavaScript">
+function define(s) {
+var x = Number(s.x.value);
+var y = Number(s.y.value);
+var k;
+if ((x>0) && (y>0)) {
+k = 1;
+s.res.value = k;
+}
+else if ((x<0) && (y>0)) {
+k = 2;
+s.res.value = k;
+}
+else if ((x<0) && (y<0)) {
+k = 3;
+s.res.value = k;
+}
+else if ((x>0) && (y<0)) {
+k = 4;
+s.res.value = k;
+}
+}
+</script>
+</head>
+<body>
+<form name="form1">
+<p> х: <input type="text" size="4" name="x"> </p>
+<p> y: <input type="text" size="4" name="y"> </p>
+<input type="reset" class="reset1" value="Скинути">
+<input type="button" class="button1" value=Визначити onClick="define(form1)">
+<br>
+Задана точка знаходиться в <input type="text" size="1" name="res"> чверті
+</form>
+</body>
+</html>

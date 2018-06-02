@@ -1,0 +1,39 @@
+<HTML>
+ <HEAD>
+ <TITLE> Обчислення максимального значення</TITLE>
+ <script language="JavaScript">
+function num (obj)
+ {
+ var max = obj.numb[0].value;
+ for(var i=1; i<5; i++)
+ {
+  if(obj.numb[i].value > max)
+  {
+  max=obj.numb[i].value;
+  }
+ }
+ var number=0;
+ for(var i=0; i<5; i++)
+ {
+  if(obj.numb[i].value == max)
+  {
+   number++;
+  }
+ }
+ obj.result.value=number;
+</script>
+ </HEAD>
+ <BODY>
+ <p> Обчислення максимального значення</p>
+<form name="form">
+ 1:<input type="text" name="numb"><br>
+ 2:<input type="text" name="numb"><br>
+ 3:<input type="text" name="numb"><br>
+ 4:<input type="text" name="numb"><br>
+ 5:<input type="text" name="numb"><br>
+ <br></br>
+ <input type="button" value="number of max" onClick="num(form)">
+ <input type="text" name="result"><br>
+ </form>
+ </BODY>
+ </HTML>

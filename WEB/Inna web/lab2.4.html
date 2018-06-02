@@ -1,0 +1,19 @@
+<HTML<HTML>
+<HEAD>
+<title>Сценарій, який обмінює місцями значення двох введених змінних</title>
+<script language="JavaScript">
+function Swap(x,y) 
+{ 
+swap.x.value=y; 
+swap.y.value=x; 
+} 
+</script>
+</HEAD>
+<BODY>
+<P>Swap(x,y)</P>
+<form name="swap"> 
+x=<input type="text" name="x"><br> 
+y=<input type="text" name="y" onblur="Swap(swap.x.value,swap.y.value)"><br> 
+</form>  
+</BODY>
+</HTML>

@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+<TITLE>Перестановка зображень</TITLE>
+<script language="JavaScript">
+function chan()
+{
+alert(Math.random());
+var arr =[];
+var result = document.getElementById('result');
+for (var i = 0; i < document.getElementsByTagName('img').length - 1; i++) {
+var img = document.getElementsByTagName('img')[i];
+arr.push(img.src);
+}
+result.src = arr[Math.floor(Math.random()*arr.length)];
+}
+</script>
+</HEAD>
+<BODY>
+<CENTER>
+<H4>Галерея рисунков</H4><br>
+ <IMG src="1.jpg" width="90" name="pic1" title="1">
+ <IMG src="2.jpg" width="90" name="pic2" title="2">
+ <IMG src="3.jpg" width="90" name="pic3" title="3"> <br>
+<input type="button" value="Вибрати зображення" onClick="chan(this)"> 
+<br>
+<IMG id="result" src=" ">
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,29 @@
+table {
+	border-collapse:collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+th {
+	background-color: #eee;
+}
+
+td {
+	color: black;
+}
+
+form {
+	padding-top: 20px;
+}
+
+input {
+	margin-top: 5px;
+	width: 60px;
+}
+
+#colorChooser, #cellChooser {
+	display: none;
+}

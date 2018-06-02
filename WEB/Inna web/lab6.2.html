@@ -1,0 +1,77 @@
+<html>
+	<head>
+        <style>
+			.params-set-header{
+				font-size:1.5em;
+				font-style:italic;
+			}
+			
+			label{
+				margin-left: 2em;
+			}
+		</style>       
+	</head>
+	<body>
+            <form id="courceForm">
+                <span class="params-set-header">Курс</span> <br />
+                <label>
+                    <input id="cource_tip" name="courceName" value="100" type="checkbox" />
+                    Веб-дизайн
+                </label><br />
+                
+                <label>
+                    <input id="cource_ssp" name="courceName" value="150" type="checkbox"/>
+                    Програмування
+                </label><br />
+                    
+                <span class="params-set-header">Кількість годин</span> <br />
+                <label>
+                     <input id="cource_40h" name="courceLength" value="40" type="radio" checked/>
+                    50 годин
+                </label><br />
+                 
+                <label>
+                    <input id="cource_70h" name="courceLength" value="70" type="radio" />
+                    100 годин    
+                </label><br />
+                
+                <span class="params-set-header">Мова</span> <br />
+                <label>
+                    <input id="cource_rus" name="courceLang" value="1" type="radio" checked />
+                    Українська
+                </label><br />
+                <label>
+                    <input id="cource_eng" name="courceLang" value="2" type="radio" />
+                    Англійська
+                </label><br /><br /><br />
+
+                <input id="calculateButton" type="button" value="Розрахувати"/><br />
+                <span>Вартість курса: </span><label id="price"></label>
+            </form> 
+        <script type="text/javascript">
+			function calculatePrice(){
+				var result = 0;
+				result += document.getElementById("cource_tip").checked 
+					?parseFloat(document.getElementById("cource_tip").value) 
+					:0;
+				result += document.getElementById("cource_ssp").checked 
+					?parseFloat(document.getElementById("cource_ssp").value)
+					:0;
+				
+				if(result != 0){
+					
+				result += document.getElementById("cource_40h").checked
+					?parseFloat(document.getElementById("cource_40h").value)
+					:parseFloat(document.getElementById("cource_70h").value);
+					
+				result += document.getElementById("cource_rus").checked
+					?parseFloat(document.getElementById("cource_rus").value)
+					:parseFloat(document.getElementById("cource_eng").value);
+						}
+				document.getElementById("price").innerHTML = result;
+			}
+			
+			document.getElementById("calculateButton").onclick = calculatePrice;
+		</script>     
+	</body>
+</html>

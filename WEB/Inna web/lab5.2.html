@@ -1,0 +1,62 @@
+<HTML>
+<HEAD>
+<style>
+hr {
+	display: block;
+	float: left;
+	margin-top: 0;
+	width: 33%;
+}
+.hrContainer {
+	height: 5px;
+}
+.param {
+	margin-bottom: 20px;
+}
+</style>
+<script>
+var lab5 = {
+	setHrParams: function (hrForm) {
+		var width, float;
+
+		if (hrForm.width[0].checked) {
+			width = '33%';
+		} else if (hrForm.width[1].checked) {
+			width = '66%';
+		} else {
+			width = '100%';
+		}
+
+		if (hrForm.position[0].checked) {
+			float = 'left';
+		} else if (hrForm.position[1].checked) {
+			float = 'none';
+		} else {
+			float = 'right';
+		}
+
+		document.getElementsByTagName('hr')[0].style.width = width;
+		document.getElementsByTagName('hr')[0].style.float = float;
+	}
+};
+</script>
+</HEAD>
+<BODY>
+<form name="hrParams">
+<div class="param">
+<p>Выберите ширину горизонтальной линии:</p>
+<label><input checked="true" type="radio" name="width" onclick="lab5.setHrParams(hrParams)" value="small" />Малая</label><br />
+<label><input type="radio" name="width" onclick="lab5.setHrParams(hrParams)" value="medium" />Средняя</label><br />
+<label><input type="radio" name="width" onclick="lab5.setHrParams(hrParams)" value="long" />Большая</label><br />
+</div>
+<div class="hrContainer"><hr /></div>
+<br />
+<div class="param">
+<p>Выберите положение горизонтальной линии:</p>
+<label><input checked="true" type="radio" name="position" onclick="lab5.setHrParams(hrParams)" value="left" />Слева</label><br />
+<label><input type="radio" name="position" onclick="lab5.setHrParams(hrParams)" value="center" />По центру</label><br />
+<label><input type="radio" name="position" onclick="lab5.setHrParams(hrParams)" value="right" />Справа</label><br />
+</div>
+</form>
+</BODY>
+</HTML>

@@ -1,0 +1,247 @@
+<html>
+  <HEAD>
+  <TITLE> lab9</TITLE>
+  <script language="JavaScript">
+  
+  function weeky(obj)
+  { 
+	var t = new Date();
+	t.setYear(Number(obj.year.value));
+	t.setMonth(Number(obj.month.value-1));
+	t.setDate(Number(obj.day.value));
+	for(var i=0;i<7;i++)
+	{
+		if((t.getDay()) == i)
+		{
+		var weekday = i;
+		break;
+		}
+	}
+	var rezult;
+	switch(weekday)
+	{
+		case 0:rezult="sun"; break;
+		case 1:rezult="mon"; break;
+		case 2:rezult="tue"; break;
+		case 3:rezult="wed"; break;
+		case 4:rezult="thu"; break;
+		case 5:rezult="fri"; break;
+		case 6:rezult="sat"; break;
+	}
+	obj.result.value=rezult;
+  }
+  
+  function lol(day, mon)
+  {
+	var rez;
+	var month = mon-1;
+	switch (month)
+	{
+		case 0:
+		{
+			if (day<20) rez="capricorn";
+			else rez="aquarius";
+			break;
+		}
+		case 1:
+		{
+			if(day<19) rez="aquarius";
+			else rez="pisces";
+			break;
+		}
+		case 2:
+		{
+			if(day<21) rez="pisces";
+			else rez="aries";
+			break;
+		}
+		case 3:
+		{
+			if(day<20) rez="aries";
+			else rez="taurus"
+			break;
+		}
+		case 4:
+		{
+			if(day<21) rez="taurus";
+			else rez="gemini";
+			break;
+		}
+		case 5:
+		{
+			if(day<21) rez="gemini";
+			else rez="cancer";
+			break;
+		}
+		case 6:
+		{
+			if(day<23) rez="cancer";
+			else rez="leo";
+			break;
+		}
+		case 7:
+		{
+			if(day<23) rez="leo";
+			else rez="virgo";
+			break;
+		}
+		case 8:
+		{
+			if(day<23) rez="virgo";
+			else rez="libra";
+			break;
+		}
+		case 9:
+		{
+			if(day<23) rez="libra";
+			else rez="scorpio";
+			break;
+		}
+		case 10:
+		{
+			if(day<22) rez="scorpio";
+			else rez="sagittarius";
+			break;
+		}
+		case 11:
+		{
+			if(day<20) rez="sagittarius";
+			else rez="capricorn";
+			break;
+		}
+	}
+	form2.result.value = rez;
+  }
+  
+  function kek(year)
+  {
+  var rez;
+	year = Math.abs(year - 1984);
+	loop = Math.floor(year / 12);
+	switch (loop)
+	{
+		case 0:
+		{
+			rez = "green";
+			break;
+		}
+		case 1:
+		{
+			rez = "red";
+			break;
+		}
+		case 2:
+		{
+			rez = "yellow";
+			break;
+		}
+		case 3:
+		{
+			rez = "white";
+			break;
+		}
+		case 4:
+		{
+			rez = "black";
+			break;
+		}
+	}
+	
+	year = year % 12;
+	switch (year)
+	{
+		case 0:
+		{
+			rez += " rat";
+			break;
+		}
+		case 1:
+		{
+			rez += " cow";
+			break;
+		}
+		case 2:
+		{
+			rez += " tiger";
+			break;
+		}
+		case 3:
+		{
+			rez += " bunny";
+			break;
+		}
+		case 4:
+		{
+			rez += " dradon";
+			break;
+		}
+		case 5:
+		{
+			rez += " snake";
+			break;
+		}
+		case 6:
+		{
+			rez += " horse";
+			break;
+		}
+		case 7:
+		{
+			rez += " sheep";
+			break;
+		}
+		case 8:
+		{
+			rez += " monkey";
+			break;
+		}
+		case 9:
+		{
+			rez += " chicken";
+			break;
+		}
+		case 10:
+		{
+			rez += " dog";
+			break;
+		}
+		case 11:
+		{
+			rez += " pig";
+			break;
+		}
+	}
+	form2.res.value = rez;
+  }
+  
+  </script>
+  </HEAD>
+  <BODY>
+  
+  <FORM name="form">
+  enter year: <input type="text" size=8 name="year" >  <br>
+  enter month : <input type="text" size=8 name="month" ><br>
+  enter day: <input type="text" size=8 name="day" ><br>
+  <input type="button" value="find" onClick="weeky(form)"><br>
+  <input type="text" name="result">
+  <input type="reset" value="Скасувати">
+  </form>
+    <br><br><br>
+
+  <form name="form2">
+  enter month : <input type="text" size=8 name="month" ><br>
+  enter day: <input type="text" size=8 name="day" ><br>
+  <input type="button" value="find" onClick="lol(Number(form2.day.value),Number(form2.month.value))"><br>
+  <input type="text" name="result">
+  <input type="reset" value="Скасувати">
+  
+  <br><br><br>
+  enter year: <input type="text" name="year"><br>
+  <input type="button" value="find" onClick="kek(Number(form2.year.value))"><br>
+  <input type="text" name="res">
+  <input type="reset" value="Скасувати">
+  
+  </FORM>
+  
+  </BODY>
+  </HTML>

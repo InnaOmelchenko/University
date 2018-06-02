@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>lab8</title>
+<script>
+
+function rev(num)
+{
+	var arr = num.split("");
+	var times = Math.ceil(arr.length/2);
+	for(let i=0; i<times; i++)
+	{
+		let temp = arr[i];
+		arr[i]=arr[arr.length-i-1];
+		arr[arr.length-i-1]=temp;
+	}
+	form.result.value = arr.join("");
+}	
+
+function kek(obj)
+{
+var number = 0;
+	for(let i=0; i<5;i++)
+	{
+		let arr = obj.ticket[i].value.split("");
+		let first = Number(arr[0])+Number(arr[1])+Number(arr[2]);
+		let second = Number(arr[3])+Number(arr[4])+Number(arr[5]);
+		if(first==second)
+		{
+			number++;
+		}
+	}
+	obj.lucky.value = number;
+}
+
+function divv(num)
+{
+	var s=[];
+	for(let i=1;i<=num;i++)
+	{
+		if(num%i==0)
+		{
+			s+=i;
+			s+=" ";
+		}
+	}
+	form.rez.value = s;
+}
+
+</script>
+</head>
+<body>
+
+<form name="form">
+
+enter your number: 
+<input type="text" name="number"><br>
+<input type="text" name="result">
+<input type="button" name="reverse" value="reverse" onClick="rev(form.number.value)">
+<br><br><br>
+
+enter numbers of your tickets<br>
+<input type="text" name="ticket"><br>
+<input type="text" name="ticket"><br>
+<input type="text" name="ticket"><br>
+<input type="text" name="ticket"><br>
+<input type="text" name="ticket"><br>
+<input type="button" name="count"  value="count" onClick="kek(form)"><br>
+number of lucky tickets:
+<input type="text" name="lucky">
+
+<br><br>
+enter number: 
+<input type="text" name="divide"><br>
+<input type="button" value="this number can be divided by:" onClick="divv(Number(form.divide.value))">
+<input type="text" name="rez">
+
+</form>
+
+</body>
+</html>

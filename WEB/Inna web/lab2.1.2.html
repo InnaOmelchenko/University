@@ -1,0 +1,19 @@
+<HTML>
+<HEAD>
+<title>Обробка події Change - зміна значення елемента</title>
+<script>
+function square_rec(obj)
+{obj.res.value=obj.num1.value* obj.num1.value}
+</script>
+</HEAD>
+<BODY>
+<P>Обчислення площі квадрата</P>
+<FORM name="form1">
+Сторона: <input type="text" size=7 name="num1"
+onChange="square_rec(form1)">
+<hr>
+Площа квадрата: <input type="text" size=7 name="res"><hr>
+<input type="reset" value=Оновити>
+</FORM>
+</BODY>
+</HTML>

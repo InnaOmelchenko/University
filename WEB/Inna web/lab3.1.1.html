@@ -1,0 +1,28 @@
+<HTML>
+ <HEAD>
+ <TITLE> Обчислення максимального значення</TITLE>
+ <script language="JavaScript">
+function maxval (obj )
+ {
+ var a = Number(obj.num1.value);
+ var b = Number(obj.num2.value);
+ var c = Number(obj.num3.value);
+ var m=a
+ if (b > m) m=b
+ if (c > m) m=c
+ obj.res.value=m }
+</script>
+ </HEAD>
+ <BODY>
+ <Р> Обчислення максимального значення</Р>
+ <FORM name="form1">
+ Число 1: <input type="text" size=8 name="num1"><hr>
+ Число 2: <input type="text" size=8 name="num2"><hr>
+ Число 3: <input type="text" size=8 name="num3"><hr>
+ Максимальне значення =
+ <input type="button" value="Визначити" onClick="maxval(form1)">
+ <input type="text" size=8 name="res"><hr>
+ <input type="reset">
+ </FORM>
+ </BODY>
+ </HTML>

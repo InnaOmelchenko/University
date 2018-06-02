@@ -1,0 +1,105 @@
+<HTML>
+  <HEAD>
+  <TITLE> lab10 </TITLE>
+  <script language="JavaScript">
+  function numword(obj)
+  { 
+  var num=0;
+	for(let i=0;i<obj.length;i++)
+	{
+		if(obj[i]==' ')
+		{
+			num++;
+		}
+	}
+	num++;
+	form.result.value = num;
+  }
+  
+  function change(obj)
+  {
+	var oldWord = obj.old.value;
+	var newWord = obj.new.value;
+	var area = obj.area.value;
+	var newarea = "";
+	var number = 0;
+	var s = newWord.length;
+	var k = oldWord.length;
+	for(let i = 0; i < area.length; i++)
+	{
+		if (area.substr(i,k) == oldWord)
+		{
+			newarea += area.substr(number, i-number);
+			newarea += newWord;
+			number = i + k;
+			i = number;
+		}
+	}
+	newarea += area.substr(number, (area.length - number));
+	obj.result.value = newarea;
+  }
+  
+  function space(obj)
+  {
+	var newText = "";
+	var number = 0;
+	for(let i=0; i<obj.length; i++)
+	{
+		if(obj[i] == ' ')
+		{
+			newText += obj.substr(number, i-number);
+			newText += ' ';
+			for (let j=i; j<obj.length; j++)
+			{
+				if(obj[j] != ' ')
+				{
+					number = j;
+					i = number;
+					break;
+				}
+			}
+		}
+	}
+	newText += obj.substr(number, (obj.length - number));
+	form3.result.value = newText;
+  }
+  
+  </script>
+  </HEAD>
+  <BODY >
+  <FORM name="form">
+  enter text<br>
+  <textarea name="area" rows=4 cols=20></textarea>
+  <br>
+  <input type="button" value="count" onClick="numword(form.area.value)"><br>
+  number of words: <input type="text" name="result" size=8>
+  <input type="reset" value="Скасувати">
+  </FORM>
+  <br><br><br>
+  
+  <form name="form2">
+  enter text:
+  <textarea name="area"></textarea>
+  <br><br>
+  input word that will be changed: 
+  <input type="text" name="old"><br><br>
+  input word that will replace the old one: 
+  <input type="text" name="new"><br><br>
+  new text: 
+  <textarea name="result"></textarea><br><br>
+  <input type="button" value="change" onClick="change(form2)">
+  <input type="reset" value="reset"><br>
+  </form>
+  <br><br>
+  
+  <form name="form3">
+  enter text with many spaces:<br>
+  <textarea name="area"></textarea><br><br>
+	new text with only one space between words:<br>
+  <textarea name="result"></textarea><br><br>
+  <input type="button" value="change" onClick="space(form3.area.value)">
+  <input type="reset" value="reset"><br>
+  </form>
+  
+  </BODY>
+  </HTML>

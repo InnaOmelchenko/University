@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+function trangel(obj){
+ var a = Number(obj.num1.value);
+ var b = Number(obj.num2.value);
+ var c = Number(obj.num3.value);
+if((a+b-c>0)&&(a+c-b>0)&&(b+c-a>0))
+{
+alert("Трикутник з такими сторонами існує");
+}
+else{
+alert("Трикутника з такими сторонами не існує");
+}
+}
+trangel(arr);
+</script>
+</head>
+<body>
+ <FORM name="form1">
+ Число 1: <input type="text" size=8 name="num1"><hr>
+ Число 2: <input type="text" size=8 name="num2"><hr>
+ Число 3: <input type="text" size=8 name="num3"><hr>
+ <input type="button" value="Визначити" onClick="trangel(form1)">
+</body>
+</html>

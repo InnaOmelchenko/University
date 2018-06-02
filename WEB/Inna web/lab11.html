@@ -1,0 +1,77 @@
+<HTML>
+  <HEAD>
+  <title>lab11</title>
+  <SCRIPT>
+  function mult()
+  {
+  img_array = new Array()
+  for (var i=0; i<4; i++)
+  img_array[i]  = new Image(50,100)
+  img_array[0].src = "p1.gif"
+  img_array[1].src = "p2.gif"
+  img_array[2].src = "p3.gif"
+  img_array[3].src = "p4.gif"
+  var t=new Date()
+  p=-1
+  }
+
+  function s()
+  {
+  p=p+1
+  document.images[0].src =img_array[p].src
+  setTimeout("s()",100)
+  if (p==3) p=-1
+  }
+  
+  function findPos(obj)
+  {
+	var num = 0;
+	var arr = obj.split(" ");
+	for(let i=0; i<obj.split(" ").length; i++)
+	{
+		if (Number(arr[i])>0)
+		{
+			num++;
+		}
+	}
+	form.result.value = num;
+  }
+  
+  function findBig(obj)
+  {
+	var max = 0;
+	var arr = obj.split(" ");
+	for(let i=0; i<obj.split(" ").length; i++)
+	{
+		if(Number(arr[i])>max)
+		{
+			max = Number(arr[i]);
+		}
+	}
+	form.biggest.value = max;
+  }
+  
+  </SCRIPT>
+  </HEAD>
+  <BODY onLoad="mult()">
+  <img src="p1.gif">
+  <br>
+  <input type="button" name="But" value="watch" onClick="s()">
+  
+  <form name="form">
+  <br><br>
+  enter your numbers: <br>
+  <input type="text" name="numbers"><br><br>
+  <input type="button" value="find positive numbers" onClick="findPos(form.numbers.value)"><br>
+  <input type="reset" value="reset"><br><br>
+  amount of numbers that are bigger than 0:
+  <input type="text" name="result"><br>
+  <hr>
+  <input type="button" value="find the biggest number" onClick="findBig(form.numbers.value)"><br>  
+  <input type="reset" value="reset"><br><br>
+  the biggest number:
+  <input type="text" name="biggest">
+  
+  </form>
+  </BODY>
+  </HTML>

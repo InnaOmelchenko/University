@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<link href="../default.css" rel="stylesheet" />
+		<link href="style.css" rel="stylesheet" />
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="script.js"></script>
+   		<title>Lab7</title>
+	</head>
+	<body>
+	<table id="myTable">
+	<tr>
+	<th>Столбец 1</th>
+	<th>Столбец 2</th>
+	<th>Столбец 3</th>
+	</tr>
+	<tr>
+	<td>1</td>
+	<td>1</td>
+	<td>1</td>
+	</tr>
+	<tr>
+	<td>2</td>
+	<td>2</td>
+	<td>2</td>
+	</tr>
+	</table>
+	<form name="tableParams">
+	<label>Выберите цвет:
+	<select name="color" onchange="lab7.checkColor(tableParams)">
+	<option selected value="white">Белый</option>
+	<option value="blue">Светло-голубой</option>
+	<option value="yellow">Светло-желтый</option>
+	<option value="green">Светло-зеленый</option>
+	<option value="gray">Светло-серый</option>
+	<option value="other">Ввести свой</option>
+</select>
+	</label>
+	&nbsp;&nbsp;&nbsp;
+	<label>Выберите фоновое изображение:
+	<select name="image">
+	<option selected value="none">Нет изображения</option>
+	<option value="image1">Изображение 1</option>
+	<option value="image2">Изображение 2</option>
+	<option value="image3">Изображение 3</option>
+	</select>
+	</label>
+	<br />
+	<div id="colorChooser">
+	<label>Введите цвет в формате HTML:<input name="customColor" type="text" /></label><br />
+	</div>
+	<label>Применить:</label><br />
+	<label><input checked="true" type="radio" name="applySettings" onclick="lab7.checkApplySettings(tableParams)" value="toAll" />Ко всем ячейкам</label><br />
+	<label><input type="radio" name="applySettings" onclick="lab7.checkApplySettings(tableParams)" value="toOneCell" />К одной ячейке</label><br />
+	<div id="cellChooser">
+	<label>Номер строки:<input name="rowNumber" type="text" /></label><br />
+	<label>Номер столбца:<input name="columnNumber" type="text" /></label><br />
+	</div>
+	<input onclick="lab7.applySettings(tableParams)" type="button" value="Ok" />
+	</form>
+	</body>
+</html>

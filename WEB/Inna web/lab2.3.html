@@ -1,0 +1,19 @@
+<HTML >
+<HEAD>
+<title>Сценарій обчислення відстані від заданої точки до початку координат</title>
+<script language="JavaScript">
+function distance(x,y) 
+{ 
+dist.result.value=Math.sqrt(x*x+y*y); 
+} 
+</script>
+</HEAD>
+<BODY>
+<P>Distance(x,y)</P>
+<form name="dist"> 
+x=<input type="text" name="x"><br> 
+y=<input type="text" name="y"><br> 
+<input type="text" name="result" value="result" onSelect="distance(dist.x.value,dist.y.value)"><br> 
+</form> 
+</BODY>
+</HTML>
