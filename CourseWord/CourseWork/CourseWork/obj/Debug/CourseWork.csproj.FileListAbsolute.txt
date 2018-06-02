@@ -1,0 +1,36 @@
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.exe.config
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.exe
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.pdb
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.g.resources
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.Main.resources
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.Properties.Resources.resources
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.exe
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.pdb
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DB.mdb
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.Questions.resources
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.Results.resources
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.OwnResults.resources
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DBDataSet.Designer.cs
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DBDataSet.xsc
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DBDataSet.xsd
+C:\Users\ASUS\Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DBDataSet.xss
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DB.mdb
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DBDataSet.Designer.cs
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DBDataSet.xsc
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DBDataSet.xsd
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\DBDataSet.xss
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.exe.config
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.exe
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.pdb
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.g.resources
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.Main.resources
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.OwnResults.resources
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.Properties.Resources.resources
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.Questions.resources
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.Results.resources
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.GenerateResource.Cache
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.exe
+C:\Users\Oleg\Desktop\Downloads\Telegram Desktop\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.pdb
